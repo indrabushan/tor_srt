@@ -5,4 +5,4 @@ apiKey = "halyoa"
 apiParams = f"&sort=0&category=0&page=0&adult=0&key={apiKey}&concurrent=0&provider_ids[]=32"
 botToken = '<YOUR BOT API KEY HERE>'
 supportChatUrl = "https://t.me/mdh_hindi"
-appUrl = 'https://play.google.com/store/apps/details?id=com.icodelife.itorrentsearch'
+appUrl = 'https://t.me/MaxxRider'
