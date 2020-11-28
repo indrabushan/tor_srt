@@ -14,7 +14,7 @@ def start(bot, update):
                              url=config.supportChatUrl)
     ],
         [
-            InlineKeyboardButton('Android App Link',
+            InlineKeyboardButton('🕵️MASTER🤖',
                                  url=config.appUrl)
         ]]
     reply_markup = InlineKeyboardMarkup(keyboard)
@@ -30,7 +30,7 @@ def help(bot, update):
                              url=config.supportChatUrl)
     ],
         [
-            InlineKeyboardButton('Android App Link',
+            InlineKeyboardButton('🕵️MASTER🤖',
                                  url=config.appUrl)
         ]]
     reply_markup = InlineKeyboardMarkup(keyboard)
