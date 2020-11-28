@@ -24,7 +24,7 @@ def button(bot, update):
         reply_markup = InlineKeyboardMarkup(back_keyboard)
         callback_string = f"{cb_json[callback_data]['title']} [{cb_json[callback_data]['size']}]\n" \
                           f"<b>🗓Uploaded : </b> {cb_json[callback_data]['date']}\n" \
-                          f"<b>⬆️ </b>{cb_json[callback_data]['seeds']} " \
+                          f"<b>🍁 </b>{cb_json[callback_data]['seeds']} " \
                           f"<b>⬇️</b> {cb_json[callback_data]['leechs']} \n" \
                           f"<b>🔗Magnet👇: </b>\n <code>{cb_json[callback_data]['magnet']}" \
                           f"</code>\n<b>Search Query : </b>{toSearch}"
@@ -43,7 +43,7 @@ def button(bot, update):
                                      callback_data=i)
             ])
         reply_markup = InlineKeyboardMarkup(keyboard)
-        bot.editMessageText("<b>🔍Search Query Results:👇</b>\n"
+        bot.editMessageText("<b>🔍Search Query Results🔎:👇</b>\n"
                             "<pre>Search Query : </pre>" + "<i>" + toSearch + "</i>\n",
                             parse_mode=ParseMode.HTML,
                             chat_id=chat_id,
