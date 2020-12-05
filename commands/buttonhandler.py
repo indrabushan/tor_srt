@@ -19,7 +19,7 @@ def button(bot, update):
         limit = len(cb_json)
     if callback_data != 88:
         back_keyboard = [[
-            InlineKeyboardButton('◀️Back', callback_data='88')
+            InlineKeyboardButton('↩️Back↪️', callback_data='88')
         ]]
         reply_markup = InlineKeyboardMarkup(back_keyboard)
         callback_string = f"{cb_json[callback_data]['title']} [{cb_json[callback_data]['size']}]\n" \
