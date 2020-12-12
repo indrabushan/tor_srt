@@ -9,7 +9,7 @@ def search_query(bot, update, args):
     message_id = update.message.message_id
     json = returnResult(search_query)
     if len(json) == 0:
-        bot.sendSticker(chat_id, 'AQADWVLKMgAEA1gCAAE',
+        bot.sendSticker(chat_id, 'AQADyKygGwAEimgAAg',
                         reply_to_message_id=update.message.message_id)
         return
     query_data = ""
