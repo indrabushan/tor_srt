@@ -13,8 +13,8 @@ def button(bot, update):
     test_str = update.callback_query.message.text
     toSearch = re.search(regex, test_str).group(0)
     cb_json = returnResult(toSearch)
-    if len(cb_json) >= 10:
-        limit = 10
+    if len(cb_json) >= 20:
+        limit = 20
     else:
         limit = len(cb_json)
     if callback_data != 88:
