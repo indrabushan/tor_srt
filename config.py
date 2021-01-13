@@ -1,4 +1,4 @@
-apiUrl = "https://api.sumanjay.cf/torrent/?query="
+apiUrl = f"https://api.sumanjay.cf/torrent/?query="
 apiKey = ""
 # API KEY FOR THE API IS PUBLIC
 # DON'T ABUSE THE API
