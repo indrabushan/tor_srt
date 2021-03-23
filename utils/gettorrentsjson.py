@@ -3,5 +3,5 @@ import requests, config
 
 def returnResult(query):
     result = requests.get(
-        f'{config.apiUrl}{query}{config.apiParams}')
+        f'{config.apiUrl}{query}')
     return result.json()['results']
