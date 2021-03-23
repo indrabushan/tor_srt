@@ -1,4 +1,4 @@
-apiUrl = "http://157.230.67.147/t_api/simplehtmldom_1_5/my_parsers/scraping/my_scraper3.php?query="
+apiUrl = "https://src.abirxo.com/1337x/{}"
 # API KEY FOR THE API IS PUBLIC
 # DON'T ABUSE THE API
 botToken = '1401031946:AAH5sZvNlf4H7l_8R5cNj_MDnytdQzjUXcY'
