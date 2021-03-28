@@ -1,7 +1,7 @@
-import requests, config
+import requests
 
 
 def returnResult(query):
-    result = requests.get(
-        f'{config.apiUrl}{query}{config.apiParams}')
+    url = "https://api.sumanjay.cf/torrent/?query={}".format(update.message.text)
+    result = requests.get(url)
     return result.json()['results']
